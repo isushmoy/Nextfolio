@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  distDir: 'out', // output directory
   async rewrites() {
     return [
       {
