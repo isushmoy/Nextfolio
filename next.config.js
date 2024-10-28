@@ -2,8 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  basePath: "/Nextfolio",
-  output: "export",
   async rewrites() {
     return [
       {
